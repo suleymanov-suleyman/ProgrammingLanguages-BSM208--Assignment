@@ -79,7 +79,7 @@ public class BankaSistemi {
         }
         System.out.println("========================================================\n");
 
-        System.out.println("===== Gişeler Çalışmaya Başlıyor (" + GISE_SAYISI + " Gişe Aktif) =====");
+        System.out.println("===== Gişeler Çalışmaya Başlıyor  (" + GISE_SAYISI + " Gişe Aktif) =====");
         List<Thread> giseThreadleri = new ArrayList<>();
         for (int i = 1; i <= GISE_SAYISI; i++) {
             Gise gise = new Gise(i, musteriKuyrugu);
